@@ -1,4 +1,4 @@
-# delete-nodemodules
+# delete-nodemodules [![works badge](https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
 
 여러 프로젝트의 node_modules를 삭제해줍니다.
 
