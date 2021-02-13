@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./dist/bundle.js",
+    "build": "webpack"
   },
   "dependencies": {
     "chalk": "^4.1.0",
     "inquirer": "^7.3.3",
     "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   }
 }
