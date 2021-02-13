@@ -7,6 +7,9 @@
     "start": "node ./dist/bundle.js",
     "build": "webpack"
   },
+  "bin": {
+    "rmnode": "./bin/start"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "inquirer": "^7.3.3",
